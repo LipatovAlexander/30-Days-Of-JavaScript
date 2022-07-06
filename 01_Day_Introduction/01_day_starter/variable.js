@@ -1,20 +1,33 @@
-// Declaring different variables of different data types
+let string = "string";
+let boolean = true;
+let undef = undefined;
+let nul = null;
+let num = 5;
 
-let firstName = 'Asabeneh'    // first name of a person
-let lastName = 'Yetayeh'      // last name of a person
-let country = 'Finland'       // country
-let city = 'Helsinki'         // capital city
-let age = 100                 // age in years
-let isMarried = true
+let var1;
+let var2;
+let var3;
+let var4;
 
-// Declaring variables with number values
+let var1Assigned = 1;
+let var2Assigned = 2;
+let var3Assigned = 3;
+let var4Assigned = 4;
 
-const gravity = 9.81         // earth gravity  in m/s2
-const boilingPoint = 100     // water boiling point, temperature in oC
-const PI = 3.14              // geometrical constant
+let firstName1 = "Alexander";
+let lastName1 = "Lipatov";
+let maritalStatus1 = "In a relationship";
+let country1 = "Russia";
+let age1 = 20;
 
-// Variables can also be declaring in one line separated by comma
+let firstName2 = "Alexander",
+    lastName2 = "Lipatov",
+    maritalStatus2 = "In a relationship",
+    country2 = "Russia",
+    age2 = "20";
 
-let name = 'Asabeneh',     //name of a person
-  job = 'teacher',
-  live = 'Finland'
+let myAge = 25;
+let yourAge = 30;
+
+console.log("I am", myAge, "years old.");
+console.log("You are", yourAge, "years old.");
